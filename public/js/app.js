@@ -32,8 +32,7 @@ const catChatPhrases = [
   'にゃんすた'
 ];
 const generateRandomCatChatPhrase = function() {
-  const randomIndex = getRandomInt(0, catChatPhrases.length);
-  return catChatPhrases[randomIndex];
+  return "hello";
 };
 
 // see https://market.mashape.com/blaazetech/robohash-image-generator
